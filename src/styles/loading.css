@@ -1,0 +1,36 @@
+:root {
+    --navercolor: rgb(100, 241, 100);
+    --layoutcolor: rgba(196, 192, 192, 0.671);
+}
+
+.loadingbackground{
+    display:flex;
+    position:fixed;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    background-image: linear-gradient(to right top,var(--navercolor),var(--layoutcolor));
+    justify-content: center;
+}
+.loadingbody{
+    width: 50vw;
+    height:50vh;
+    align-self: center;
+    background-image: linear-gradient(to right,var(--layoutcolor),var(--navercolor));
+    animation : 2s linear infinite load;
+    background-size: 600%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color:white;
+}
+@keyframes load {
+    100%{
+        background-position: right;
+    }
+    0%{
+        background-position: left;
+    }
+}

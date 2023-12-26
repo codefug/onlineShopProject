@@ -1,0 +1,41 @@
+.homescreen{
+    display:grid;
+    grid-template: 400px 3rem/ auto auto;
+    gap:50px 20px;
+    padding:40px 20px;
+    border-radius: 20px;
+}
+.homescreen>img{
+    grid-row:1/-1;
+    grid-column: 1/2;
+    height:400px;
+    width: 400px;
+}
+.subdescription{
+    grid-column:2/3;
+    border: 1px solid var(--layoutcolor);
+    border-radius: 20px;
+}
+.subdescription>h2{
+    text-align: center;
+    margin:0;
+    margin-bottom: 50px;
+    font-size:60px;
+}
+.subdescription>p{
+    padding: 20px;
+    letter-spacing: 3px;
+    word-break:keep-all;
+    text-align: center;
+    font-weight:bold;
+}
+.startDate{
+    font-size:3rem;
+    height:400px;
+    width:800px;
+    grid-column: 1/-1;
+    grid-row:2/3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
