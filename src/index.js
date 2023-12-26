@@ -19,7 +19,7 @@ const startpage = (function () {
     // 해당하는 원소를 꺼내서 배열을 만들어서 저장
     const zipped = zip([item1, item2, item3, item4], sidebarImage);
 
-    // loadingfunction();
+    loadingfunction();
 
     Array.from(zipped).forEach((element) => { element[1].src = element[0] });
 

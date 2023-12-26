@@ -10,8 +10,11 @@
     top:0;
     left:0;
     right:0;
-    background-image: linear-gradient(to right top,var(--navercolor),var(--layoutcolor));
+    background-image: linear-gradient(to right,var(--layoutcolor),var(--navercolor));
+    background-size: 300%;
+    animation: 2s linear infinite load;
     justify-content: center;
+    z-index: 1;
 }
 .loadingbody{
     width: 50vw;
@@ -19,7 +22,7 @@
     align-self: center;
     background-image: linear-gradient(to right,var(--layoutcolor),var(--navercolor));
     animation : 2s linear infinite load;
-    background-size: 600%;
+    background-size: 300%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +34,6 @@
         background-position: right;
     }
     0%{
-        background-position: left;
+        background-position: center;
     }
 }

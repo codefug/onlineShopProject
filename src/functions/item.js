@@ -12,6 +12,8 @@ function additem(div,image,name,price,description,type){
         category=["storeitem","itemdescription","storedescription"]
     }else if (type=="streamer"){
         category=["streameritem","streamerdescription","profiledescription"]    
+    }else{
+        category=["contactitem","detaildescription","contactdescription"]
     }
     const newImage = new Image();
     newImage.src=image;
