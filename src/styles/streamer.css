@@ -1,0 +1,23 @@
+.streamer{
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    width:800px;
+    border-radius: 20px;
+    padding: 40px;
+    gap:40px;
+}
+.streameritem{
+    aspect-ratio: 3/3;
+    height:300px;
+    border-radius: 20px;
+    margin-top:10px;
+}
+.streamerdescription p+p{
+    overflow: auto;
+    height:200px;
+}
+.profiledescription{
+    display:flex;
+    gap:40px;
+}

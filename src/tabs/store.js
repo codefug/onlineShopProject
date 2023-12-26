@@ -16,7 +16,7 @@ function storefunction(){
 
     itemlist.forEach((element,index)=>{
         additem(content,element,descriptionlist[index][0],
-            descriptionlist[index][1],descriptionlist[index][2]);
+            descriptionlist[index][1],descriptionlist[index][2],"store");
     });
     content.classList.add('store');
 }
