@@ -2,7 +2,6 @@ import { homefunction as home } from '../tabs/home.js';
 import { contactfunction as contact } from '../tabs/contact.js';
 import { storefunction as store } from '../tabs/store.js';
 import { streamerfunction as streamer } from '../tabs/streamer.js';
-import { clearContent } from './clear.js';
 
 function clicktab() {
     const tabs = document.querySelectorAll(".tab");

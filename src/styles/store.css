@@ -1,0 +1,32 @@
+:root {
+    --navercolor: rgb(100, 241, 100);
+    --layoutcolor: rgba(196, 192, 192, 0.671);
+}
+
+.store{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px;
+    width:800px;
+    height:1200px;
+    border-radius: 20px;
+    padding: 40px;
+}
+.storeitem{
+    height:100%;
+    width: 25%;
+    border-radius: 20px;
+}
+.storedescription{
+    display:flex;
+    border-bottom: 1px solid var(--layoutcolor);
+    padding-bottom:40px;
+    gap:40px;
+}
+.storedescription:nth-last-child(1){
+    border-bottom: none;
+}
+.subdescription{
+    flex:1;
+}

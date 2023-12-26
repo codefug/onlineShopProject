@@ -1,11 +1,13 @@
-.homescreen{
+.home{
     display:grid;
     grid-template: 400px 3rem/ auto auto;
     gap:50px 20px;
     padding:40px 20px;
     border-radius: 20px;
+    width:800px;
+    height:800px;
 }
-.homescreen>img{
+.home>img{
     grid-row:1/-1;
     grid-column: 1/2;
     height:400px;

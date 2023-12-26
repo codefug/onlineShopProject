@@ -3,7 +3,6 @@
     src: url('/src/assets/font/Ubuntu-Bold.ttf');
     font-style: normal;
 }
-
 :root {
     --navercolor: rgb(100, 241, 100);
     --layoutcolor: rgba(196, 192, 192, 0.671);
@@ -99,11 +98,11 @@ main {
 }
 
 #content {
-    width:800px;
-    height:800px;
     border: 1px solid var(--layoutcolor);
     grid-column: 2/3;
     grid-row: 2/3;
+    box-shadow: 2px 2px 1px black;
+
 }
 
 #sidebar {
@@ -124,7 +123,14 @@ main {
     text-align: center;
     padding: 20px;
 }
-
+a:active{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+    text-shadow: 1px 1px 1px var(--navercolor);
+}
 #sidebar a:nth-last-child(1) {
     border-bottom: none;
 }

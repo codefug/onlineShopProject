@@ -24,7 +24,7 @@ function homefunction(){
     content.appendChild(homeImage);
     content.appendChild(descriptiondiv1);
     content.appendChild(descriptiondiv2);
-    content.classList.add("homescreen");
+    content.classList.add('home');
 }
 
 export {homefunction};
