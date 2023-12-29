@@ -31,10 +31,17 @@ function additem(div,image,name,price,description,type){
     div.appendChild(newdescription);
 }
 
+/**
+ * @param {string} name 
+ * @param {number} price 
+ * @param {string} description 
+ * @returns {object} object
+ */
 function itemObject(name,price,description){
     return {name,price,description};
 }
 
+// object를 받아서 property를 채워넣는 함수
 function putDetailIntoItem(object,h2,p1,p2){
     h2.textContent=object.name;
     p1.textContent=object.price;
